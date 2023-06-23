@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T07:31:20.995Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ihUAVu8CBFVN7Pbky6NU" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T07:45:56.791Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s_3re7PovTkyJfG1K4n8" version="21.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="821" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Transcation decision" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Feedback&lt;br&gt;decision UI" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="190" y="270" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Updating feedback_val with rejected&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -68,6 +68,16 @@
             <mxPoint as="offset" />
             <mxPoint x="310" y="530" as="sourcePoint" />
             <mxPoint x="370" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8c4eZg2EQ-OdxVrjt4uY-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Send copied images for&amp;nbsp;&lt;br&gt;data cleaning&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="730" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8c4eZg2EQ-OdxVrjt4uY-24" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8c4eZg2EQ-OdxVrjt4uY-12" target="8c4eZg2EQ-OdxVrjt4uY-21">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="460" as="sourcePoint" />
+            <mxPoint x="250" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
