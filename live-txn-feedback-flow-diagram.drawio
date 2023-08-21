@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T09:24:27.669Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="O7KzV34Z71_PIfAk5ZB7" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T11:27:03.173Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Mi1Bg0SSH-RULEf2SFaL" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2320" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1541" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -90,6 +90,9 @@
         <mxCell id="iEYKKcenAd9etwI2gq5V-39" value="Checking &lt;br&gt;Decision valid or not" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="738.75" width="140" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="iEYKKcenAd9etwI2gq5V-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEYKKcenAd9etwI2gq5V-43" target="iEYKKcenAd9etwI2gq5V-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iEYKKcenAd9etwI2gq5V-43" value="Updating the decision as accepted and keep in localstorage and database as well." style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="125" y="970" width="190" height="60" as="geometry" />
         </mxCell>
@@ -110,6 +113,9 @@
         </mxCell>
         <mxCell id="iEYKKcenAd9etwI2gq5V-52" value="Updating the decision as rejected" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="615" y="778.75" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEYKKcenAd9etwI2gq5V-54" value="On complete button action, start processing on decision made by sorter" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="1109" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
