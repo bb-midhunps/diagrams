@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T09:47:46.261Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.2" etag="OALcfF2G-PamXqQt0LGa" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T10:44:26.918Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wjc2GDDwanWYakhmEYdF" version="24.0.2" type="github">
   <diagram name="Page-1" id="WYd1DO_Am6oGvoUfWORl">
-    <mxGraphModel>
+    <mxGraphModel dx="821" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-1" target="wfsq0a6jWM2ucOWFd4YF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-2" target="wfsq0a6jWM2ucOWFd4YF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-2" value="&lt;b&gt;Sourcing APP&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SKU will be sourced from warehouse through sourcing App. and we will keep the data in s3 and database as well.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-6" target="wfsq0a6jWM2ucOWFd4YF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-6" value="&lt;b&gt;Data Cleaning&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The sourced date will be assign to a sorter for the data cleaning, here the user can rename, accept and reject the sourced images&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-8" target="wfsq0a6jWM2ucOWFd4YF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-8" value="&lt;b&gt;Bucketization&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After the data cleaning the data will come for bucketization, the user can sort the images with different criteria.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-10" target="wfsq0a6jWM2ucOWFd4YF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-10" value="&lt;b&gt;Manual Annotation&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The sorted data will come for annotation, only good images will be allotted for the annotation.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="840" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-12" value="&lt;b&gt;Draw Bounding Box&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After the a&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="200" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
