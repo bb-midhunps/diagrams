@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T09:08:23.588Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Sxi-4ahMmBn5xGDFoveJ" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T09:13:08.190Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mjr2j42G2lkYyYL9BEHY" version="24.0.2" type="github">
   <diagram name="Page-1" id="-VwbvClMGyZVKaIXkjAa">
     <mxGraphModel dx="821" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YYvxlnoOs2tsHkbahHtV-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="80" width="640" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="frp2rCiCJxWg1SznggJd-2" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
           <mxGeometry x="930.5" y="140" width="70" height="90" as="geometry" />
         </mxCell>
@@ -16,15 +19,6 @@
         <mxCell id="frp2rCiCJxWg1SznggJd-4" value="Sourcing APP" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1" parent="1" vertex="1">
           <mxGeometry x="120.5" y="215.5" width="100" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="frp2rCiCJxWg1SznggJd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="frp2rCiCJxWg1SznggJd-5" target="frp2rCiCJxWg1SznggJd-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="510.5" y="252" />
-              <mxPoint x="510.5" y="320" />
-              <mxPoint x="965.5" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="frp2rCiCJxWg1SznggJd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="frp2rCiCJxWg1SznggJd-5" target="frp2rCiCJxWg1SznggJd-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -33,14 +27,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="YYvxlnoOs2tsHkbahHtV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="frp2rCiCJxWg1SznggJd-5" target="frp2rCiCJxWg1SznggJd-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="374" y="260" />
+              <mxPoint x="480" y="260" />
+              <mxPoint x="480" y="310" />
+              <mxPoint x="966" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="frp2rCiCJxWg1SznggJd-5" value="Sourcing Backend API&lt;br&gt;Node JS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#8CC64F;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="300.5" y="210" width="73.5" height="84" as="geometry" />
         </mxCell>
         <mxCell id="frp2rCiCJxWg1SznggJd-10" value="Updating the database with sourced images details" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;perimeterSpacing=0;" parent="1" vertex="1">
-          <mxGeometry x="350.5" y="110" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="frp2rCiCJxWg1SznggJd-11" value="Storing sourced images in Amazon S3 bucket" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;perimeterSpacing=0;" parent="1" vertex="1">
-          <mxGeometry x="550.5" y="190" width="110" height="50" as="geometry" />
+          <mxGeometry x="530.5" y="137" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YYvxlnoOs2tsHkbahHtV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frp2rCiCJxWg1SznggJd-15" target="frp2rCiCJxWg1SznggJd-2">
           <mxGeometry relative="1" as="geometry">
@@ -81,9 +83,6 @@
         <mxCell id="YYvxlnoOs2tsHkbahHtV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYvxlnoOs2tsHkbahHtV-7" target="frp2rCiCJxWg1SznggJd-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YYvxlnoOs2tsHkbahHtV-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60.5" y="80" width="640" height="280" as="geometry" />
-        </mxCell>
         <mxCell id="YYvxlnoOs2tsHkbahHtV-4" value="&lt;b&gt;&lt;u&gt;Moving Invalid Images / Rejecting folder&lt;/u&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Here we will add one more popup with a dropdown with reasons&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Picture resolution issue&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Light Issues&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;&quot;&gt;By choosing these options invalid images will be categorised.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;perimeterSpacing=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="660" width="260" height="150" as="geometry" />
         </mxCell>
@@ -98,6 +97,9 @@
         </mxCell>
         <mxCell id="frp2rCiCJxWg1SznggJd-20" value="Database will be updated once the user click on button clicks." style="rounded=1;whiteSpace=wrap;html=1;dashed=1;perimeterSpacing=0;" parent="1" vertex="1">
           <mxGeometry x="755" y="400" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="frp2rCiCJxWg1SznggJd-11" value="Storing sourced images in Amazon S3 bucket under&amp;nbsp;&lt;br&gt;bigbasket_source/{date}/sku/" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;perimeterSpacing=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="270" width="160" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
