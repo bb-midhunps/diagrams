@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T08:59:38.122Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="at5lLz48kh3U1I3_82Y5" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T09:03:41.558Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Z2xoUFccTibAsxU_uIz2" version="24.0.2" type="github">
   <diagram name="Page-1" id="-VwbvClMGyZVKaIXkjAa">
-    <mxGraphModel dx="1642" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,19 +61,19 @@
           <mxGeometry x="670" y="540" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="frp2rCiCJxWg1SznggJd-21" value="Verified images will be copied to bigbasket_root/{product_type}/SKU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="403" y="480" width="190" height="70" as="geometry" />
+          <mxGeometry x="360" y="440" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YYvxlnoOs2tsHkbahHtV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.087;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="frp2rCiCJxWg1SznggJd-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="339.5" y="655" as="sourcePoint" />
             <mxPoint x="498" y="560" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="419.5" y="655" />
+              <mxPoint x="377" y="655" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="frp2rCiCJxWg1SznggJd-17" value="Sorter can&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Rename the folder&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Verify the all the images under the sku_id or category which sourced&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Can move images to another folder&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Can move selected images to invalid folder&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="129.5" y="570" width="210" height="170" as="geometry" />
+        <mxCell id="frp2rCiCJxWg1SznggJd-17" value="Sorter can&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Rename the folder&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Verify the all the images under the sku_id or category which sourced&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Can move images to another folder&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Can move selected images to invalid folder&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Reject a sourced folder (date, sku)&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="129.5" y="570" width="210" height="210" as="geometry" />
         </mxCell>
         <mxCell id="YYvxlnoOs2tsHkbahHtV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYvxlnoOs2tsHkbahHtV-7" target="frp2rCiCJxWg1SznggJd-15">
           <mxGeometry relative="1" as="geometry" />
@@ -81,8 +81,8 @@
         <mxCell id="YYvxlnoOs2tsHkbahHtV-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60.5" y="80" width="640" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="YYvxlnoOs2tsHkbahHtV-4" value="Moving Invalid Images&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Here we will add one more popup with a dropdown with reasons&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Picture resolution issue&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Light Issues&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;&quot;&gt;By choosing these options invalid images will be categorised.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;perimeterSpacing=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="359.5" y="680" width="260" height="140" as="geometry" />
+        <mxCell id="YYvxlnoOs2tsHkbahHtV-4" value="&lt;b&gt;&lt;u&gt;Moving Invalid Images / Rejecting folder&lt;/u&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Here we will add one more popup with a dropdown with reasons&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Picture resolution issue&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Light Issues&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;&quot;&gt;By choosing these options invalid images will be categorised.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;perimeterSpacing=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="660" width="260" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
