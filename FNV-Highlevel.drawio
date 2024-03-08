@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T10:44:26.918Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wjc2GDDwanWYakhmEYdF" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T10:50:57.070Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="QOfJocuZ6bvY2-gvbdW4" version="24.0.2" type="github">
   <diagram name="Page-1" id="WYd1DO_Am6oGvoUfWORl">
     <mxGraphModel dx="821" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,34 @@
         <mxCell id="wfsq0a6jWM2ucOWFd4YF-10" value="&lt;b&gt;Manual Annotation&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The sorted data will come for annotation, only good images will be allotted for the annotation.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="840" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="wfsq0a6jWM2ucOWFd4YF-12" value="&lt;b&gt;Draw Bounding Box&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After the a&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-12" target="wfsq0a6jWM2ucOWFd4YF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-12" value="&lt;b&gt;Draw Bounding Box&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After the annotated data, we will get a json file, from this json file will draw the bounding box and images were kept in s3 bucket.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="60" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-14" target="wfsq0a6jWM2ucOWFd4YF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-14" value="&lt;b&gt;Annotation Sorting&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After the bounding box drawing, those images will be sent for sorting to review the annotation,&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-16" target="wfsq0a6jWM2ucOWFd4YF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-16" value="&lt;b&gt;Filter the json&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After the annotation sorting we will get good annotation data, from this data will do a filtering to json with filename and generate a good json file.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfsq0a6jWM2ucOWFd4YF-18" target="wfsq0a6jWM2ucOWFd4YF-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-18" value="&lt;b&gt;Finalized json&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After all filteration json file will be kept in a table and images will be copied to google bucket.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="690" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfsq0a6jWM2ucOWFd4YF-22" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="930" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
