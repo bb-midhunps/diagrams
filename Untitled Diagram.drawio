@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T05:19:51.365Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KjjE0_wu8fOhbIkiIp2m" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T05:33:07.797Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="P3eg1ZQq0UYOeRsgDNZ_" version="24.0.4" type="github">
   <diagram name="Page-1" id="vmxqucWGRHVJAcCM3PUT">
-    <mxGraphModel dx="821" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,9 +48,6 @@
         </mxCell>
         <mxCell id="vORDeZxFz1jC5OVi5Ggl-26" value="New table required for stroing model versions, and this version ids should be mapped with store skus." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="205" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="vORDeZxFz1jC5OVi5Ggl-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Vision Model Versioning Module - Flow chart&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="100" y="30" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
