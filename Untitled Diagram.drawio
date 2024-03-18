@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T05:33:07.797Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="P3eg1ZQq0UYOeRsgDNZ_" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T06:05:50.474Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3rIuDF8iwUvL01Aya7S8" version="24.0.4" type="github">
   <diagram name="Page-1" id="vmxqucWGRHVJAcCM3PUT">
     <mxGraphModel dx="1642" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="vORDeZxFz1jC5OVi5Ggl-20" value="New table for store, city, sku store mapping required here. otherwise we can reuse mastersheet tables here." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="395" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vORDeZxFz1jC5OVi5Ggl-22" value="Start" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-22" value="Stop" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="119.5" y="1022" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vORDeZxFz1jC5OVi5Ggl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;sketch=1;curveFitting=1;jiggle=2;curved=0;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-26" target="vORDeZxFz1jC5OVi5Ggl-15">
