@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T04:16:26.253Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.4" etag="eAe6L5ludYcj4mnGHQWb" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T04:32:27.291Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_S8P7HZM_VozlLVo3EIJ" version="24.0.4" type="github">
   <diagram name="Page-1" id="vmxqucWGRHVJAcCM3PUT">
-    <mxGraphModel>
+    <mxGraphModel dx="821" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-2" target="vORDeZxFz1jC5OVi5Ggl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="60" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-3" target="vORDeZxFz1jC5OVi5Ggl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-3" value="&lt;b&gt;Store Listing&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;List of stores with total number of assortment, trained sku number, sourced sku number&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Option to request for new sku for the store by uploading csv&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-6" value="&lt;b&gt;Store Details&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;List of skus under the store,&amp;nbsp; Trained status, sourced status, sourced images count.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Option to request for new sku for the store by uploading csv&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="240" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
