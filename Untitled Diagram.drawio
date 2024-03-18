@@ -1,23 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T04:32:27.291Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_S8P7HZM_VozlLVo3EIJ" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T05:07:48.512Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="VSX17tcM1aV-FZgDktQa" version="24.0.4" type="github">
   <diagram name="Page-1" id="vmxqucWGRHVJAcCM3PUT">
     <mxGraphModel dx="821" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vORDeZxFz1jC5OVi5Ggl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-2" target="vORDeZxFz1jC5OVi5Ggl-3">
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;flowAnimation=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-2" target="vORDeZxFz1jC5OVi5Ggl-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vORDeZxFz1jC5OVi5Ggl-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="145" y="60" width="130" height="70" as="geometry" />
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="10" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vORDeZxFz1jC5OVi5Ggl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-3" target="vORDeZxFz1jC5OVi5Ggl-6">
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;flowAnimation=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-3" target="vORDeZxFz1jC5OVi5Ggl-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vORDeZxFz1jC5OVi5Ggl-3" value="&lt;b&gt;Store Listing&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;List of stores with total number of assortment, trained sku number, sourced sku number&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Option to request for new sku for the store by uploading csv&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="190" width="240" height="120" as="geometry" />
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-3" value="&lt;b&gt;Store Listing&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;List of stores with total number of assortment, trained sku number, sourced sku number&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Option to request for new sku for the store by uploading csv&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="340" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vORDeZxFz1jC5OVi5Ggl-6" value="&lt;b&gt;Store Details&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;List of skus under the store,&amp;nbsp; Trained status, sourced status, sourced images count.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Option to request for new sku for the store by uploading csv&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="360" width="240" height="130" as="geometry" />
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;flowAnimation=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-6" target="vORDeZxFz1jC5OVi5Ggl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-6" value="&lt;b&gt;Store Details&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;List of skus under the store,&amp;nbsp; Trained status, sourced status, sourced images count.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Option to request for new sku for the store by uploading csv&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="510" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-8" target="vORDeZxFz1jC5OVi5Ggl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-8" value="&lt;b&gt;SKU Details&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Source Images will be shown here&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Training process and progress will be shown here.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Sorted and rejected images can show here.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Status of data cleaning, bucketization, sku review etc everything can shows here.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="62" y="690" width="245" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;flowAnimation=1;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-15" target="vORDeZxFz1jC5OVi5Ggl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-15" value="&lt;b&gt;Dashboard&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;Summarised data will be shown here.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Last trained model version,&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Total of trained SKU,&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Total of sourced SKU and images.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Detected and Not detected count,&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Total number of stores which using vision&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-20" value="New table for store and city required here. otherwise we can reuse mastersheet tables here." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;shadow=0;textShadow=0;curved=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vORDeZxFz1jC5OVi5Ggl-20" target="vORDeZxFz1jC5OVi5Ggl-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="350" />
+              <mxPoint x="360" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vORDeZxFz1jC5OVi5Ggl-22" value="Start" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="927" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
