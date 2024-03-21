@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T09:32:53.316Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="nxAKiO8Qt8GM0E98ha3k" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T09:37:23.253Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="d3Rt2DHzkSDK5G4F1Hnz" version="24.0.7" type="github">
   <diagram name="Page-1" id="BAc7BfIP3QMbL2KYN2eO">
-    <mxGraphModel dx="2000" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1922" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,31 +19,23 @@
         <mxCell id="ZyElnYu3EGaNJUJICbih-24" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="320" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZyElnYu3EGaNJUJICbih-25" value="&lt;a href=&quot;http://localhost/phpmyadmin/sql.php?db=vision_dev&amp;amp;table=captured_images&amp;amp;pos=0&quot; title=&quot;&quot; style=&quot;text-decoration-line: none; color: rgb(35, 90, 129); cursor: pointer; outline: none; font-family: sans-serif; font-size: 13.12px; font-weight: 700; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;captured_images&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="ZyElnYu3EGaNJUJICbih-25" value="&lt;a href=&quot;http://localhost/phpmyadmin/sql.php?db=vision_dev&amp;amp;table=captured_images&amp;amp;pos=0&quot; title=&quot;&quot; style=&quot;text-decoration-line: none; cursor: pointer; outline: none; font-family: sans-serif; font-size: 13.12px; font-weight: 700; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;captured_images&lt;/font&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="325" y="398" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZyElnYu3EGaNJUJICbih-26" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="450" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZyElnYu3EGaNJUJICbih-27" value="&lt;b&gt;&lt;a style=&quot;text-decoration-line: none; cursor: pointer; outline: none; font-family: sans-serif; font-size: 13.12px; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot; title=&quot;&quot; href=&quot;http://localhost/phpmyadmin/sql.php?db=vision_dev&amp;amp;table=captured_images&amp;amp;pos=0&quot;&gt;captured_images&lt;/a&gt;_categories&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="290" y="528" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ZyElnYu3EGaNJUJICbih-28" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="580" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZyElnYu3EGaNJUJICbih-29" value="&lt;b&gt;&lt;a href=&quot;http://localhost/phpmyadmin/sql.php?db=vision_dev&amp;amp;table=captured_images&amp;amp;pos=0&quot; title=&quot;&quot; style=&quot;text-decoration-line: none; color: rgb(35, 90, 129); cursor: pointer; outline: none; font-family: sans-serif; font-size: 13.12px; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;captured_images&lt;/a&gt;_dates&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="305" y="658" width="170" height="30" as="geometry" />
+        <mxCell id="ZyElnYu3EGaNJUJICbih-29" value="&lt;b&gt;captured_images_dates&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="310" y="658" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZyElnYu3EGaNJUJICbih-30" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="720" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="C_meJWgbMCdoLf3qObib-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZyElnYu3EGaNJUJICbih-31">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280.00000000000045" y="820" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZyElnYu3EGaNJUJICbih-31" value="&lt;a href=&quot;http://localhost/phpmyadmin/sql.php?db=vision_dev&amp;amp;table=phst_data_cleaning_jobs&amp;amp;pos=0&quot; title=&quot;&quot; style=&quot;color: rgb(35, 90, 129); cursor: pointer; outline: none; font-family: sans-serif; font-size: 13.12px; font-weight: 700; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;phst_data_cleaning_jobs&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="300" y="798" width="180" height="30" as="geometry" />
+        <mxCell id="ZyElnYu3EGaNJUJICbih-31" value="&lt;b&gt;phst_data_cleaning_jobs&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="305" y="798" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZyElnYu3EGaNJUJICbih-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZyElnYu3EGaNJUJICbih-35" target="ZyElnYu3EGaNJUJICbih-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -119,6 +111,9 @@
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-18" value="Data Cleaning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-594" y="1128" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-20" value="&lt;b&gt;captured_images_categories&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="530" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
