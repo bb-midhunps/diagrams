@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T11:08:01.187Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DzfJzJSg5uYIHjmuNgEZ" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T11:34:15.244Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="07WFuuaOkI8XuRsnmMJF" version="24.0.7" type="github">
   <diagram name="Page-1" id="BAc7BfIP3QMbL2KYN2eO">
-    <mxGraphModel dx="2000" dy="1835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2880" dy="2334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,7 +122,7 @@
           <mxGeometry x="-470" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-25" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1521.25" y="234" width="60" height="80" as="geometry" />
+          <mxGeometry x="1523.75" y="240" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-26" value="&lt;a href=&quot;http://localhost/phpmyadmin/sql.php?db=vision_dev&amp;amp;table=captured_images&amp;amp;pos=0&quot; title=&quot;&quot; style=&quot;text-decoration-line: none; cursor: pointer; outline: none; font-family: sans-serif; font-size: 13.12px; font-weight: 700; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;captured_images&lt;/font&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1486.25" y="312" width="130" height="30" as="geometry" />
@@ -219,6 +219,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-59" target="C_meJWgbMCdoLf3qObib-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-59" value="the selected&amp;nbsp;&lt;div&gt;sku images&amp;nbsp;&lt;/div&gt;&lt;div&gt;are valid&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="908.31" y="950" width="134.94" height="134.94" as="geometry" />
         </mxCell>
@@ -291,7 +294,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1860" y="1018" />
-              <mxPoint x="1860" y="520" />
+              <mxPoint x="1860" y="495" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -314,7 +317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-83" value="&lt;font color=&quot;#787878&quot;&gt;Updating key and category column in captured_images table&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#616161;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="251.25" width="137.5" height="68.75" as="geometry" />
+          <mxGeometry x="1710" y="259" width="137.5" height="68.75" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=0;dashed=1;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-101" target="C_meJWgbMCdoLf3qObib-73">
           <mxGeometry relative="1" as="geometry">
@@ -341,7 +344,7 @@
           <mxGeometry x="1636.25" y="820" width="193.75" height="130" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-104" value="user can reject the sku with predefined reasons" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1988" y="480" width="160" height="80" as="geometry" />
+          <mxGeometry x="1988" y="455" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-105" target="C_meJWgbMCdoLf3qObib-104">
           <mxGeometry relative="1" as="geometry" />
@@ -362,6 +365,57 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-101" target="C_meJWgbMCdoLf3qObib-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-121" target="C_meJWgbMCdoLf3qObib-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-121" value="User can click on accept button" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="887.89" y="1195" width="175.78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-123" target="C_meJWgbMCdoLf3qObib-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340" y="1349" />
+              <mxPoint x="2340" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;startArrow=classic;startFill=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-123" target="C_meJWgbMCdoLf3qObib-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2160" y="883.3333333333334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-123" target="C_meJWgbMCdoLf3qObib-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-123" value="&lt;ul&gt;&lt;li&gt;All images from the sku will move bigbasket_root/{product_type}/{sku}&lt;/li&gt;&lt;li&gt;Update the lates path in key column of captured_images table&lt;/li&gt;&lt;li&gt;&amp;nbsp;Update the is_verified column in captured_images_categories table&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="857.36" y="1297.5" width="236.84" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-123" target="C_meJWgbMCdoLf3qObib-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340" y="1349" />
+              <mxPoint x="2340" y="406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-131" target="C_meJWgbMCdoLf3qObib-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1830" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2430" y="1490" />
+              <mxPoint x="2430" y="597" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-131" value="After verify all sku use can click on complete button" style="whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="889.46" y="1460" width="172.64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-136" value="&lt;font color=&quot;#787878&quot;&gt;Update the status column as completed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#616161;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="567.25" width="157.5" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-136" target="C_meJWgbMCdoLf3qObib-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
