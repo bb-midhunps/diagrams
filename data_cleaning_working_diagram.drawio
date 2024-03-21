@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T10:31:13.612Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-Q5tvwrZfvtNpU5eaECR" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T10:40:01.569Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="8RPVZANuUg5U4uJAiHi6" version="24.0.7" type="github">
   <diagram name="Page-1" id="BAc7BfIP3QMbL2KYN2eO">
-    <mxGraphModel dx="2195" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1271" dy="252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,9 +264,14 @@
         <mxCell id="C_meJWgbMCdoLf3qObib-76" value="Update the captured_images and captured_images_category table with the new sku" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1878.75" y="980" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="C_meJWgbMCdoLf3qObib-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-76">
+        <mxCell id="C_meJWgbMCdoLf3qObib-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.005;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1700" y="501.03" as="targetPoint" />
+            <mxPoint x="1976.96" y="1029.95" as="sourcePoint" />
+            <mxPoint x="1811.4975" y="407.06750000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1959" y="1030" />
+              <mxPoint x="1959" y="407" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-83" target="C_meJWgbMCdoLf3qObib-25">
@@ -274,8 +279,14 @@
             <mxPoint x="1700" y="358.53" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-82" target="C_meJWgbMCdoLf3qObib-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-82" value="&lt;font color=&quot;#787878&quot;&gt;Updating category column in captured_images_categories&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#616161;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="440" width="157.5" height="58.75" as="geometry" />
+          <mxGeometry x="1654" y="376.62" width="157.5" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-87" target="C_meJWgbMCdoLf3qObib-95">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-87" value="User can reject the SKU or can move the SKU to extra data" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1350" y="977.47" width="160" height="80" as="geometry" />
@@ -294,6 +305,15 @@
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-83" value="&lt;font color=&quot;#787878&quot;&gt;Updating key and category column in captured_images table&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#616161;" vertex="1" parent="1">
           <mxGeometry x="1710" y="251.25" width="137.5" height="68.75" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C_meJWgbMCdoLf3qObib-95" target="C_meJWgbMCdoLf3qObib-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-95" value="If the user select&amp;nbsp;&lt;div&gt;move to extra data&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="910" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-98" value="Insert the sku and image array to phst_extra_data" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="798" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
