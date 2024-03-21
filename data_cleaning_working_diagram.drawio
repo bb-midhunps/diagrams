@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T09:37:23.253Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="d3Rt2DHzkSDK5G4F1Hnz" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T09:41:27.082Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rF96z_dLY0ZmJO2x8fZM" version="24.0.7" type="github">
   <diagram name="Page-1" id="BAc7BfIP3QMbL2KYN2eO">
-    <mxGraphModel dx="1922" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C_meJWgbMCdoLf3qObib-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-600" y="1040" width="810" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="C_meJWgbMCdoLf3qObib-19" value="Data cleaning List from&amp;nbsp;&lt;div&gt;phst_data_cleaning_jobs&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="1195" width="270" height="135" as="geometry" />
+        <mxCell id="C_meJWgbMCdoLf3qObib-19" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1195" width="470" height="235" as="geometry" />
         </mxCell>
         <mxCell id="ZyElnYu3EGaNJUJICbih-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-590" y="200" width="500" height="590" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry x="-690" y="138" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-12" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1180" width="60" height="90" as="geometry" />
+          <mxGeometry x="-800" y="1267.5" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#5A69A4;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-594" y="1044" width="73.5" height="84" as="geometry" />
@@ -114,6 +114,12 @@
         </mxCell>
         <mxCell id="C_meJWgbMCdoLf3qObib-20" value="&lt;b&gt;captured_images_categories&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="297.5" y="530" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-21" value="Data cleaning jobs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-496.13" y="1200" width="116.13" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_meJWgbMCdoLf3qObib-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
