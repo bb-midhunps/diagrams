@@ -125,13 +125,13 @@
           <mxGeometry x="-160" y="390" width="250" height="113" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="480" width="252" height="123.5" as="geometry" />
+          <mxGeometry x="414" y="538" width="252" height="123.5" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-6" value="&lt;span style=&quot;&quot;&gt;A : cron.created_on&lt;/span&gt;&lt;div style=&quot;&quot;&gt;B: restriction.created_on&lt;br&gt;&lt;div&gt;C: cron.ecg_id&lt;/div&gt;&lt;div&gt;D: restriction.entry_context_group_id&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="424" y="506.75" width="230" height="90" as="geometry" />
+          <mxGeometry x="424" y="564.75" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-7" value="NOTE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="487.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="414" y="545.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stXpBWwS-PEf_fCnOzC--4" target="MxeqKNj8xu_JnEBf65KC-8">
           <mxGeometry relative="1" as="geometry">
