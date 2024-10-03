@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--6" value="cron_jobs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="777" y="80" width="60" height="80" as="geometry" />
+          <mxGeometry x="708" y="80" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="stXpBWwS-PEf_fCnOzC--10" target="stXpBWwS-PEf_fCnOzC--4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -34,7 +34,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--10" value="restrictions&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="630" y="80" width="60" height="80" as="geometry" />
+          <mxGeometry x="561" y="80" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="stXpBWwS-PEf_fCnOzC--13" target="stXpBWwS-PEf_fCnOzC--15" edge="1">
           <mxGeometry relative="1" as="geometry" />
