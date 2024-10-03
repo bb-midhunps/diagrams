@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="vAOD8KEE5CEis8ILfhlD">
-    <mxGraphModel dx="1793" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2651" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,41 +11,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--1" value="Start / Cron job executed" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="205" y="237.5" width="130" height="65" as="geometry" />
+          <mxGeometry x="205" y="70" width="130" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="stXpBWwS-PEf_fCnOzC--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="stXpBWwS-PEf_fCnOzC--4" target="stXpBWwS-PEf_fCnOzC--13" edge="1">
+        <mxCell id="stXpBWwS-PEf_fCnOzC--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MxeqKNj8xu_JnEBf65KC-8" target="stXpBWwS-PEf_fCnOzC--13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="stXpBWwS-PEf_fCnOzC--4" value="Getting values" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="210" y="372.5" width="120" height="60" as="geometry" />
+        <mxCell id="stXpBWwS-PEf_fCnOzC--4" value="Getting last updated restriction with grouping of ecg&#39;s from restrictions table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="165" y="198.5" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="stXpBWwS-PEf_fCnOzC--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="stXpBWwS-PEf_fCnOzC--6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="387.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="490" y="387.5" />
-              <mxPoint x="330" y="387.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="stXpBWwS-PEf_fCnOzC--9" value="Getting last executed time" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="stXpBWwS-PEf_fCnOzC--7" vertex="1" connectable="0">
-          <mxGeometry x="-0.5254" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="MxeqKNj8xu_JnEBf65KC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="stXpBWwS-PEf_fCnOzC--6" target="MxeqKNj8xu_JnEBf65KC-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--6" value="cron_jobs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="510" y="180" width="60" height="80" as="geometry" />
+          <mxGeometry x="777" y="80" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="stXpBWwS-PEf_fCnOzC--10" target="stXpBWwS-PEf_fCnOzC--4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--12" value="Getting all open restriction requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="stXpBWwS-PEf_fCnOzC--11" vertex="1" connectable="0">
           <mxGeometry x="-0.5238" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-44" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="stXpBWwS-PEf_fCnOzC--10" value="restrictions requests" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="620" y="180" width="60" height="80" as="geometry" />
+        <mxCell id="stXpBWwS-PEf_fCnOzC--10" value="restrictions&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="630" y="80" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="stXpBWwS-PEf_fCnOzC--13" target="stXpBWwS-PEf_fCnOzC--15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -78,20 +67,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--18" value="Download map and update the restrictions on map" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="190" y="727.5" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="stXpBWwS-PEf_fCnOzC--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.717;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="stXpBWwS-PEf_fCnOzC--22" target="stXpBWwS-PEf_fCnOzC--6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="497.5" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="169" y="700" width="201" height="70" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="stXpBWwS-PEf_fCnOzC--22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="957.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="stXpBWwS-PEf_fCnOzC--22" value="Updating the current time on cron_job table updated_on column" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="190" y="837.5" width="160" height="60" as="geometry" />
+        <mxCell id="stXpBWwS-PEf_fCnOzC--22" value="Insert restriction details on&amp;nbsp;&lt;div&gt;cron_jobs table&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="820" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="stXpBWwS-PEf_fCnOzC--33" value="Stop" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="205" y="957.5" width="130" height="65" as="geometry" />
@@ -141,16 +125,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;validating last executed&amp;nbsp;&lt;div&gt;cron_job details with&amp;nbsp;&lt;/div&gt;&lt;div&gt;recently updated&amp;nbsp;&lt;/div&gt;&lt;div&gt;restrictions&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="380" width="250" height="113" as="geometry" />
+          <mxGeometry x="-270" y="420" width="250" height="113" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="950" width="252" height="123.5" as="geometry" />
+          <mxGeometry x="500" y="720" width="252" height="123.5" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-6" value="&lt;span style=&quot;&quot;&gt;A : cron.created_on&lt;/span&gt;&lt;div style=&quot;&quot;&gt;B: restriction.created_on&lt;br&gt;&lt;div&gt;C: cron.ecg_id&lt;/div&gt;&lt;div&gt;D: restriction.entry_context_group_id&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="976.75" width="230" height="90" as="geometry" />
+          <mxGeometry x="510" y="746.75" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-7" value="NOTE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="957.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="500" y="727.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MxeqKNj8xu_JnEBf65KC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stXpBWwS-PEf_fCnOzC--4" target="MxeqKNj8xu_JnEBf65KC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="270" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxeqKNj8xu_JnEBf65KC-8" value="Getting last applied cron_job details with the condition of ecg and dm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="333.5" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
