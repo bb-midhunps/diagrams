@@ -125,7 +125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;validating last executed&amp;nbsp;&lt;div&gt;cron_job details with&amp;nbsp;&lt;/div&gt;&lt;div&gt;recently updated&amp;nbsp;&lt;/div&gt;&lt;div&gt;restrictions&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="420" width="250" height="113" as="geometry" />
+          <mxGeometry x="-160" y="390" width="250" height="113" as="geometry" />
         </mxCell>
         <mxCell id="MxeqKNj8xu_JnEBf65KC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="720" width="252" height="123.5" as="geometry" />
