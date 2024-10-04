@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="vAOD8KEE5CEis8ILfhlD">
-    <mxGraphModel dx="2651" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3564" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,7 +75,7 @@
         <mxCell id="skjPZMmQEE1Fa7M3AOO7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="skjPZMmQEE1Fa7M3AOO7-3" target="skjPZMmQEE1Fa7M3AOO7-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="skjPZMmQEE1Fa7M3AOO7-3" value="if&amp;nbsp;&lt;div&gt;(cron_job.created_on &amp;lt; 1 day)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="skjPZMmQEE1Fa7M3AOO7-3" value="if&amp;nbsp;&lt;div&gt;(cron_job.ended_on &amp;lt; 1 day)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1098.5" y="333.5" width="195" height="195" as="geometry" />
         </mxCell>
         <mxCell id="skjPZMmQEE1Fa7M3AOO7-7" value="Stop execution" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" parent="1" vertex="1">
