@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="Page-1" id="4Hh08WiiZBYtfwmJYDey">
-    <mxGraphModel dx="2053" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="586" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,7 +101,7 @@
         <mxCell id="ItfDqiVy4EzuSGvBxEal-68" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="680" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-69" value="if((A==C) &amp;amp;&amp;amp; (B!=C)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ItfDqiVy4EzuSGvBxEal-69" value="if((X==Z) &amp;amp;&amp;amp; (Y!=Z)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="720" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ItfDqiVy4EzuSGvBxEal-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ItfDqiVy4EzuSGvBxEal-72" target="ItfDqiVy4EzuSGvBxEal-68">
