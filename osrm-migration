@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="4Hh08WiiZBYtfwmJYDey">
-    <mxGraphModel dx="912" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="714" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,17 +72,16 @@
         </mxCell>
         <mxCell id="px2S7UESbKCujpXc8FQs-2" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ItfDqiVy4EzuSGvBxEal-83" vertex="1" connectable="0">
           <mxGeometry x="-0.3672" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-45" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-68" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="293" y="708" width="180" height="110" as="geometry" />
+        <mxCell id="ItfDqiVy4EzuSGvBxEal-68" value="if (random_number &amp;lt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;OLD_OSRM_TRAFFIC)&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="293" y="903" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-69" value="if (random_number &amp;lt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;OLD_OSRM_TRAFFIC)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="313" y="748" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-72" target="ItfDqiVy4EzuSGvBxEal-68" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ItfDqiVy4EzuSGvBxEal-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="383" y="718.25" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ItfDqiVy4EzuSGvBxEal-72" value="Reading old and new osrm traffic percentage from config and getting value from random number generater" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="273" y="587.5" width="220" height="60.5" as="geometry" />
@@ -92,7 +91,7 @@
         </mxCell>
         <mxCell id="px2S7UESbKCujpXc8FQs-1" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ItfDqiVy4EzuSGvBxEal-82" vertex="1" connectable="0">
           <mxGeometry x="-0.4329" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-35" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="px2S7UESbKCujpXc8FQs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-30" edge="1">
@@ -116,6 +115,28 @@
         </mxCell>
         <mxCell id="L-s4EYT9SpxqMaZBSvr3-7" value="RANDOM NUMBER GENERATER&lt;div&gt;(0-99)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="26" y="500" width="220" height="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-s4EYT9SpxqMaZBSvr3-16" target="ItfDqiVy4EzuSGvBxEal-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-19" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-s4EYT9SpxqMaZBSvr3-18">
+          <mxGeometry x="-0.2729" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.021;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L-s4EYT9SpxqMaZBSvr3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606" y="687.5" as="targetPoint" />
+            <mxPoint x="449" y="772.4999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-21" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-s4EYT9SpxqMaZBSvr3-20">
+          <mxGeometry x="-0.3439" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-16" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;if(&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(NEW_OSRM_TRAFFIC +OLD&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;_OSRM_TRAFFIC)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;!= 100)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="293" y="720" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
