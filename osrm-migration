@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="4Hh08WiiZBYtfwmJYDey">
-    <mxGraphModel dx="967" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="912" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-95" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="10" y="8" width="800" height="892" as="geometry" />
-        </mxCell>
         <mxCell id="ItfDqiVy4EzuSGvBxEal-19" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="608" y="43" width="60" height="80" as="geometry" />
         </mxCell>
@@ -41,7 +38,7 @@
         <mxCell id="ItfDqiVy4EzuSGvBxEal-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-30" target="ItfDqiVy4EzuSGvBxEal-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="px2S7UESbKCujpXc8FQs-3" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ItfDqiVy4EzuSGvBxEal-73">
+        <mxCell id="px2S7UESbKCujpXc8FQs-3" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ItfDqiVy4EzuSGvBxEal-73" vertex="1" connectable="0">
           <mxGeometry x="-0.2163" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -70,43 +67,10 @@
         <mxCell id="ItfDqiVy4EzuSGvBxEal-58" value="New OSRM Infra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="701.54" y="653" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-61" target="ItfDqiVy4EzuSGvBxEal-72" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-61" value="X" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="83" y="368" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-62" value="Old OSRM number array [1-7]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="23" y="448" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-63" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="273" y="618" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="213" y="560" />
-              <mxPoint x="213" y="618" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-63" value="Y" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="83" y="508" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-64" value="New OSRM number array [8-10]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="13" y="588" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-66" target="ItfDqiVy4EzuSGvBxEal-72" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-66" value="Z" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="83" y="658" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-67" value="Random number generater [1-10]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="20" y="738" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ItfDqiVy4EzuSGvBxEal-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-68" target="ItfDqiVy4EzuSGvBxEal-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="px2S7UESbKCujpXc8FQs-2" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ItfDqiVy4EzuSGvBxEal-83">
+        <mxCell id="px2S7UESbKCujpXc8FQs-2" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ItfDqiVy4EzuSGvBxEal-83" vertex="1" connectable="0">
           <mxGeometry x="-0.3672" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -114,32 +78,44 @@
         <mxCell id="ItfDqiVy4EzuSGvBxEal-68" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="293" y="708" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-69" value="if((X==Z)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ItfDqiVy4EzuSGvBxEal-69" value="if (random_number &amp;lt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;OLD_OSRM_TRAFFIC)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="313" y="748" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ItfDqiVy4EzuSGvBxEal-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-72" target="ItfDqiVy4EzuSGvBxEal-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ItfDqiVy4EzuSGvBxEal-72" value="Getting New and Old Integer number array and a random from random number generater" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="ItfDqiVy4EzuSGvBxEal-72" value="Reading old and new osrm traffic percentage from config and getting value from random number generater" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="273" y="587.5" width="220" height="60.5" as="geometry" />
         </mxCell>
         <mxCell id="ItfDqiVy4EzuSGvBxEal-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.489;entryY=1.068;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-68" target="ItfDqiVy4EzuSGvBxEal-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="px2S7UESbKCujpXc8FQs-1" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ItfDqiVy4EzuSGvBxEal-82">
+        <mxCell id="px2S7UESbKCujpXc8FQs-1" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ItfDqiVy4EzuSGvBxEal-82" vertex="1" connectable="0">
           <mxGeometry x="-0.4329" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="px2S7UESbKCujpXc8FQs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ItfDqiVy4EzuSGvBxEal-30">
+        <mxCell id="px2S7UESbKCujpXc8FQs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ItfDqiVy4EzuSGvBxEal-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="px2S7UESbKCujpXc8FQs-7" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="px2S7UESbKCujpXc8FQs-5">
+        <mxCell id="px2S7UESbKCujpXc8FQs-7" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="px2S7UESbKCujpXc8FQs-5" vertex="1" connectable="0">
           <mxGeometry x="-0.4221" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="21.5" y="304" width="213" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-6" value="&lt;div&gt;X: OLD_OSRM_TRAFFIC from config&lt;/div&gt;&lt;div&gt;Y: NEW_OSRM_TRAFFIC from config&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="24" y="294" width="211.5" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-s4EYT9SpxqMaZBSvr3-7" target="ItfDqiVy4EzuSGvBxEal-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-s4EYT9SpxqMaZBSvr3-7" value="RANDOM NUMBER GENERATER&lt;div&gt;(0-99)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="26" y="500" width="220" height="60.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
