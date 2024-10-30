@@ -1,9 +1,105 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="KuWOhq276ija0KVuG3lu">
-    <mxGraphModel dx="821" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1095" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-38" target="NSDBOYg2I7vT8SDhN7Sm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-38" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="147" y="60" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217.00000000000023" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-39" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="87" y="200" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-41" value="Executing bash script from the pod health check" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97" y="210" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-45" target="NSDBOYg2I7vT8SDhN7Sm-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-45" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="87" y="370" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-46" value="Getting the current time in the bash script" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97" y="380" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="457" y="612.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-58" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-53">
+          <mxGeometry x="-0.0755" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-47" target="NSDBOYg2I7vT8SDhN7Sm-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-70" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-60">
+          <mxGeometry x="-0.3499" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-47" value="if(current_time == suicide_time)" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="107" y="545" width="220" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-50" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" vertex="1" parent="1">
+          <mxGeometry x="548.54" y="130" width="72.92" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-51" value="BB-Rover Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="205" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-54" target="NSDBOYg2I7vT8SDhN7Sm-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-54" target="NSDBOYg2I7vT8SDhN7Sm-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-54" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="567.5" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-55" value="Calling the BB-Rover API fro the last executed cron_job details for the POD restarting decision" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="577.5" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-59" value="Stop" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="147" y="759" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-61" target="NSDBOYg2I7vT8SDhN7Sm-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-67" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-65">
+          <mxGeometry x="-0.037" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-61" target="NSDBOYg2I7vT8SDhN7Sm-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-69" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-68">
+          <mxGeometry x="-0.0894" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-61" value="if(last_executed_cron &amp;gt; 1 day)" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="731.5" width="220" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-63" target="NSDBOYg2I7vT8SDhN7Sm-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-63" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="937" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-64" value="POD restarting" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="947" width="240" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
