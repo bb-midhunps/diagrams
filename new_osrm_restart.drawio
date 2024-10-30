@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="KuWOhq276ija0KVuG3lu">
-    <mxGraphModel dx="782" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="770" height="1120" as="geometry" />
-        </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-38" target="NSDBOYg2I7vT8SDhN7Sm-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -24,18 +21,18 @@
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-41" value="Executing bash script from the pod health check" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="112" y="213" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-45" target="NSDBOYg2I7vT8SDhN7Sm-47">
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-45" target="NSDBOYg2I7vT8SDhN7Sm-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-45" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="102" y="373" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-46" value="Getting the current time and setting suicide_time to tomorrow&#39;s timestamp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-46" value="Getting the current_time (execution time)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="112" y="383" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="472" y="615.5" as="targetPoint" />
+            <mxPoint x="473" y="980.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-58" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-53">
@@ -43,8 +40,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-47" target="NSDBOYg2I7vT8SDhN7Sm-74">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-47" target="NSDBOYg2I7vT8SDhN7Sm-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233" y="1131" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-81" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-76">
           <mxGeometry x="-0.1394" relative="1" as="geometry">
@@ -52,28 +51,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-47" value="if(current_time == suicide_time)" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="122" y="548" width="220" height="135" as="geometry" />
+          <mxGeometry x="123" y="913" width="220" height="135" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-50" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" vertex="1" parent="1">
-          <mxGeometry x="563.54" y="313" width="72.92" height="70" as="geometry" />
+          <mxGeometry x="713.54" y="591" width="72.92" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-51" value="BB-Rover Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="388" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-54" target="NSDBOYg2I7vT8SDhN7Sm-51">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="690" y="666" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-54" target="NSDBOYg2I7vT8SDhN7Sm-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-54" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="570.5" width="260" height="90" as="geometry" />
+          <mxGeometry x="471" y="935.5" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-55" value="Calling the BB-Rover API fro the last executed cron_job details for the POD restarting decision" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="580.5" width="240" height="70" as="geometry" />
+          <mxGeometry x="481" y="945.5" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-59" value="Stop" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="162" y="935" width="140" height="80" as="geometry" />
+          <mxGeometry x="163" y="1300" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-61" target="NSDBOYg2I7vT8SDhN7Sm-63">
           <mxGeometry relative="1" as="geometry" />
@@ -83,8 +79,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-61" target="NSDBOYg2I7vT8SDhN7Sm-74">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362.9999999999998" y="1176" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-82" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-78">
           <mxGeometry x="-0.1451" relative="1" as="geometry">
@@ -92,25 +90,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-61" value="if(last_executed_cron &amp;gt; 1 day)" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="743.5" width="220" height="135" as="geometry" />
+          <mxGeometry x="491" y="1108.5" width="220" height="135" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-63" target="NSDBOYg2I7vT8SDhN7Sm-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-63" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1016" width="260" height="90" as="geometry" />
+          <mxGeometry x="471" y="1381" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NSDBOYg2I7vT8SDhN7Sm-64" value="POD restarting" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1026" width="240" height="70" as="geometry" />
+          <mxGeometry x="481" y="1391" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-74" target="NSDBOYg2I7vT8SDhN7Sm-59">
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="232.79" y="840" as="sourcePoint" />
+            <mxPoint x="232.79" y="912.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-88" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-85">
+          <mxGeometry x="-0.1379" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-84" target="NSDBOYg2I7vT8SDhN7Sm-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-74" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="102" y="766" width="260" height="90" as="geometry" />
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-94" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NSDBOYg2I7vT8SDhN7Sm-93">
+          <mxGeometry x="-0.0818" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-75" value="Running OSRM health check url&lt;div&gt;(&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: start; white-space-collapse: preserve;&quot;&gt;/driving/API)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="112" y="776" width="240" height="70" as="geometry" />
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-84" value="if(!suicide_time)" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="123" y="705" width="220" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-91" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="727.5" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-92" value="Setting suicide_time to tomorrow&#39;s timestamp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="737.5" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.523;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-54" target="NSDBOYg2I7vT8SDhN7Sm-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSDBOYg2I7vT8SDhN7Sm-100" target="NSDBOYg2I7vT8SDhN7Sm-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-100" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="103" y="545" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSDBOYg2I7vT8SDhN7Sm-101" value="Running OSRM health check url&lt;div&gt;(&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; letter-spacing: -0.07px; text-align: start; white-space-collapse: preserve;&quot;&gt;/driving/API)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113" y="555" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
