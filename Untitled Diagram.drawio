@@ -1,51 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
-  <diagram name="Page-1" id="1IzVBrr25njC-4ZKAC0B">
-    <mxGraphModel dx="821" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="OKR8f8NoIsqOwax2_gUL">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="680" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="400" width="310" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-10" width="680" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-2" value="V.0.0.1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="170" y="80" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-3" value="Model version" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="50" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="340" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-6" value="Start Date" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="310" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="340" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-8" value="End Date" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="310" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="410" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-13" value="SKU 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="400" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="400" width="310" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-15" value="V0.0.01" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="560" y="340" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kr7_XVT8-J2cMQ-RbJ_q-16" value="Model Versions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="545" y="310" width="120" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
