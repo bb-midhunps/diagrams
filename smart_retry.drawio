@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="eXSfmjUFuQOITZMK3o8C">
-    <mxGraphModel dx="1426" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="Di3fAgxtV0VW0kk3TTDr-4" value="Report is failed on the Node" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="111" y="313.35" width="210" height="87.65" as="geometry" />
         </mxCell>
-        <mxCell id="Di3fAgxtV0VW0kk3TTDr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Di3fAgxtV0VW0kk3TTDr-6" target="Di3fAgxtV0VW0kk3TTDr-8" edge="1">
+        <mxCell id="m6Lgri4AIF165tDDJpC_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Di3fAgxtV0VW0kk3TTDr-6" target="m6Lgri4AIF165tDDJpC_-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Di3fAgxtV0VW0kk3TTDr-6" value="Starting smart retry" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
@@ -30,7 +30,7 @@
         </mxCell>
         <mxCell id="Di3fAgxtV0VW0kk3TTDr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Di3fAgxtV0VW0kk3TTDr-8" target="Di3fAgxtV0VW0kk3TTDr-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="214.96000000000004" y="788" as="targetPoint" />
+            <mxPoint x="485.15000000000003" y="823" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Di3fAgxtV0VW0kk3TTDr-38" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Di3fAgxtV0VW0kk3TTDr-21" vertex="1" connectable="0">
@@ -38,74 +38,75 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Di3fAgxtV0VW0kk3TTDr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Di3fAgxtV0VW0kk3TTDr-8" target="Di3fAgxtV0VW0kk3TTDr-31" edge="1">
+        <mxCell id="m6Lgri4AIF165tDDJpC_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Di3fAgxtV0VW0kk3TTDr-8" target="Di3fAgxtV0VW0kk3TTDr-31">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Di3fAgxtV0VW0kk3TTDr-40" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Di3fAgxtV0VW0kk3TTDr-39" vertex="1" connectable="0">
-          <mxGeometry x="-0.8536" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Di3fAgxtV0VW0kk3TTDr-8" value="checking the failed&amp;nbsp;&lt;div&gt;report error message&amp;nbsp;&lt;/div&gt;&lt;div&gt;in stored error messages&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="109.81" y="575" width="212.19" height="160" as="geometry" />
+          <mxGeometry x="380" y="610" width="212.19" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Di3fAgxtV0VW0kk3TTDr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Di3fAgxtV0VW0kk3TTDr-23" target="Di3fAgxtV0VW0kk3TTDr-31" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="481" y="1358" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Di3fAgxtV0VW0kk3TTDr-46" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Di3fAgxtV0VW0kk3TTDr-30" vertex="1" connectable="0">
-          <mxGeometry x="-0.325" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m6Lgri4AIF165tDDJpC_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Di3fAgxtV0VW0kk3TTDr-23" target="m6Lgri4AIF165tDDJpC_-13">
+        <mxCell id="m6Lgri4AIF165tDDJpC_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Di3fAgxtV0VW0kk3TTDr-23" target="m6Lgri4AIF165tDDJpC_-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m6Lgri4AIF165tDDJpC_-16" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m6Lgri4AIF165tDDJpC_-14">
-          <mxGeometry x="-0.151" relative="1" as="geometry">
+        <mxCell id="m6Lgri4AIF165tDDJpC_-22" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m6Lgri4AIF165tDDJpC_-21">
+          <mxGeometry x="-0.1059" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Di3fAgxtV0VW0kk3TTDr-23" target="Di3fAgxtV0VW0kk3TTDr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Di3fAgxtV0VW0kk3TTDr-23" value="checking the&amp;nbsp;&lt;div&gt;number of retries &amp;lt;=&lt;/div&gt;&lt;div&gt;configured_retry_count&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="109.81" y="802" width="212.19" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="Di3fAgxtV0VW0kk3TTDr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Di3fAgxtV0VW0kk3TTDr-26" target="Di3fAgxtV0VW0kk3TTDr-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-29" y="218" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="71" y="1200" />
-              <mxPoint x="71" y="223" />
-              <mxPoint x="111" y="223" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Di3fAgxtV0VW0kk3TTDr-26" value="Re-executing the failed query in the same node again and updating the retry count on table" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="112" y="1145" width="206.96" height="110" as="geometry" />
+          <mxGeometry x="661.19" y="610" width="212.19" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Di3fAgxtV0VW0kk3TTDr-31" value="Stop" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="390" y="1053.14" width="170" height="72.86" as="geometry" />
+          <mxGeometry x="620.19" y="955.0000000000001" width="170" height="72.86" as="geometry" />
         </mxCell>
-        <mxCell id="m6Lgri4AIF165tDDJpC_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-10" target="Di3fAgxtV0VW0kk3TTDr-6">
+        <mxCell id="m6Lgri4AIF165tDDJpC_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-2" target="m6Lgri4AIF165tDDJpC_-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m6Lgri4AIF165tDDJpC_-2" value="Error messages" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="460" y="177.07999999999998" width="86" height="120" as="geometry" />
+          <mxGeometry x="560" y="427" width="86" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="m6Lgri4AIF165tDDJpC_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-2" target="m6Lgri4AIF165tDDJpC_-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="237" as="sourcePoint" />
-            <mxPoint x="321" y="487" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m6Lgri4AIF165tDDJpC_-10" value="Reading error message from constants" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="320" width="114" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="m6Lgri4AIF165tDDJpC_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-13" target="Di3fAgxtV0VW0kk3TTDr-26">
+        <mxCell id="m6Lgri4AIF165tDDJpC_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-10" target="Di3fAgxtV0VW0kk3TTDr-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m6Lgri4AIF165tDDJpC_-13" value="Updating the retry_count into class variable" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1020" width="210" height="90" as="geometry" />
+        <mxCell id="m6Lgri4AIF165tDDJpC_-10" value="Reading error message from constants" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="446.5" width="114" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-17" target="Di3fAgxtV0VW0kk3TTDr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-17" target="m6Lgri4AIF165tDDJpC_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-17" value="checking the report&amp;nbsp;&lt;div&gt;execution time &amp;lt; configured_time&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="932.19" y="610" width="212.19" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-32" target="Di3fAgxtV0VW0kk3TTDr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-37" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m6Lgri4AIF165tDDJpC_-34">
+          <mxGeometry x="0.0025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-32" target="Di3fAgxtV0VW0kk3TTDr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-32" value="checking the smart_retry&amp;nbsp;&lt;div&gt;is enabled for the report and global level&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="610" width="212.19" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-39" value="Re-executing the failed query in the same node again and updating the retry count on table" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="842" y="395" width="206.96" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-41" target="m6Lgri4AIF165tDDJpC_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6Lgri4AIF165tDDJpC_-41" target="Di3fAgxtV0VW0kk3TTDr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6Lgri4AIF165tDDJpC_-41" value="Updating the retry_count into class variable" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="270" width="210" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
